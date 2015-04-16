@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7K-AA-yBM" userLabel="topView">
-                                <rect key="frame" x="150" y="0.0" width="300" height="100"/>
+                                <rect key="frame" x="150" y="0.0" width="300" height="145"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="9dO-li-2el"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t96-6i-wFh" userLabel="orangeView">
-                                <rect key="frame" x="150" y="100" width="300" height="150"/>
+                                <rect key="frame" x="150" y="145" width="300" height="150"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="NN8-4d-Bre"/>
@@ -33,7 +33,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ene-ub-V1i" userLabel="blueView">
-                                <rect key="frame" x="150" y="350" width="300" height="150"/>
+                                <rect key="frame" x="150" y="305" width="300" height="150"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="5hR-pW-Jrb"/>
@@ -41,11 +41,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ye2-TS-Ied" userLabel="bottomView">
-                                <rect key="frame" x="110" y="500" width="380" height="100"/>
+                                <rect key="frame" x="150" y="455" width="300" height="145"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="380" id="hJZ-Mk-luP"/>
-                                    <constraint firstAttribute="height" priority="750" constant="100" id="iSk-gP-OyQ"/>
+                                    <constraint firstAttribute="width" constant="300" id="hJZ-Mk-luP"/>
+                                    <constraint firstAttribute="height" priority="750" constant="150" id="iSk-gP-OyQ"/>
                                 </constraints>
                             </view>
                         </subviews>
