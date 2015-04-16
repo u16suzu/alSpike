@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *topView;
+@property (weak, nonatomic) IBOutlet UIView *orangeView;
+@property (weak, nonatomic) IBOutlet UIView *blueView;
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
 
 @end
 
@@ -16,12 +20,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    
+    NSLog(@"top    : %@", self.topView );
+    NSLog(@"orange : %@", self.orangeView );
+    NSLog(@"blue   : %@", self.blueView );
+    NSLog(@"bottom : %@", self.bottomView );
+}
+
+#pragma mark -
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

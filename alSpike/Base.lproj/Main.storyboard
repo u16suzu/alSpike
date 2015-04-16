@@ -45,12 +45,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="380" id="hJZ-Mk-luP"/>
-                                    <constraint firstAttribute="height" constant="100" id="iSk-gP-OyQ"/>
+                                    <constraint firstAttribute="height" priority="750" constant="100" id="iSk-gP-OyQ"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.79607844350000001" green="0.83529412749999998" blue="0.83529412749999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="ene-ub-V1i" firstAttribute="top" relation="greaterThanOrEqual" secondItem="t96-6i-wFh" secondAttribute="bottom" constant="10" id="0go-VA-g8w"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ye2-TS-Ied" secondAttribute="bottom" id="4NS-QV-sWK"/>
                             <constraint firstItem="ene-ub-V1i" firstAttribute="top" relation="greaterThanOrEqual" secondItem="t96-6i-wFh" secondAttribute="bottom" constant="10" id="E8g-34-HFq"/>
                             <constraint firstAttribute="centerX" secondItem="Q7K-AA-yBM" secondAttribute="centerX" id="TDu-RA-oaM"/>
@@ -62,7 +63,18 @@
                             <constraint firstItem="t96-6i-wFh" firstAttribute="top" secondItem="Q7K-AA-yBM" secondAttribute="bottom" id="cgp-1u-Vfd"/>
                             <constraint firstItem="Q7K-AA-yBM" firstAttribute="height" secondItem="ye2-TS-Ied" secondAttribute="height" id="jvF-oe-h4E"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="E8g-34-HFq"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="blueView" destination="ene-ub-V1i" id="K1e-Tr-s4J"/>
+                        <outlet property="bottomView" destination="ye2-TS-Ied" id="7zv-T0-qbP"/>
+                        <outlet property="orangeView" destination="t96-6i-wFh" id="Rtg-g1-LNs"/>
+                        <outlet property="topView" destination="Q7K-AA-yBM" id="JUA-Ca-9zE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
